@@ -1,1 +1,4 @@
+.*
+!.gitignore
 pytorch-handwriting/data/
+
