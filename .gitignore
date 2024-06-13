@@ -1,4 +1,5 @@
 .*
 !.gitignore
+cpp-tutorial-lsp-broken/
 pytorch-handwriting/data/
 
