@@ -1,4 +1,7 @@
 # pixi environments
 .pixi
 .snakemake
+data/
+snakemake-data/
+snakemake-tutorial-data.tar.gz
 *.egg-info
