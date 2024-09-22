@@ -1,0 +1,47 @@
+[project]
+name = "pixi-tutorial"
+version = "0.1.0"
+description = "Learning how to use Pixi"
+authors = ["Nicholson <nicholson.tom.n@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+platforms = ["osx-arm64"]
+
+[tasks]
+hello = "python src/helloworld.py"
+version = "python --version"
+start = "echo 'Choose an environment'"
+
+[feature.p312.tasks]
+version = "python --version"
+start = "python"
+
+[feature.p310.tasks]
+version = "python --version"
+start = "python"
+
+[feature.rlang.tasks]
+version = "R --version"
+start = "R"
+
+[dependencies]
+python = "*"
+bash = ">=5.2.21,<6"
+
+[feature.p310.dependencies]
+python = ">=3.10,<3.11"
+pre-commit = "*"
+
+[feature.p312.dependencies]
+python = ">=3.12,<4"
+pre-commit = "*"
+
+[feature.rlang.dependencies]
+r-base = "*"
+r-ggplot2 = "*"
+r-tidyverse = "*"
+
+[environments]
+default = ["p312", "rlang"]
+p310 = ["p310"]
+p312 = ["p312"]
+rlang  = ["rlang"]

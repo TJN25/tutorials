@@ -129,102 +129,6 @@ tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
-Entity.o: Entity.cpp.o
-.PHONY : Entity.o
-
-# target to build an object file
-Entity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/Entity.cpp.o
-.PHONY : Entity.cpp.o
-
-Entity.i: Entity.cpp.i
-.PHONY : Entity.i
-
-# target to preprocess a source file
-Entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/Entity.cpp.i
-.PHONY : Entity.cpp.i
-
-Entity.s: Entity.cpp.s
-.PHONY : Entity.s
-
-# target to generate assembly for a file
-Entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/Entity.cpp.s
-.PHONY : Entity.cpp.s
-
-EntityHandler.o: EntityHandler.cpp.o
-.PHONY : EntityHandler.o
-
-# target to build an object file
-EntityHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/EntityHandler.cpp.o
-.PHONY : EntityHandler.cpp.o
-
-EntityHandler.i: EntityHandler.cpp.i
-.PHONY : EntityHandler.i
-
-# target to preprocess a source file
-EntityHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/EntityHandler.cpp.i
-.PHONY : EntityHandler.cpp.i
-
-EntityHandler.s: EntityHandler.cpp.s
-.PHONY : EntityHandler.s
-
-# target to generate assembly for a file
-EntityHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/EntityHandler.cpp.s
-.PHONY : EntityHandler.cpp.s
-
-MyMath.o: MyMath.cpp.o
-.PHONY : MyMath.o
-
-# target to build an object file
-MyMath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/MyMath.cpp.o
-.PHONY : MyMath.cpp.o
-
-MyMath.i: MyMath.cpp.i
-.PHONY : MyMath.i
-
-# target to preprocess a source file
-MyMath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/MyMath.cpp.i
-.PHONY : MyMath.cpp.i
-
-MyMath.s: MyMath.cpp.s
-.PHONY : MyMath.s
-
-# target to generate assembly for a file
-MyMath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/MyMath.cpp.s
-.PHONY : MyMath.cpp.s
-
-Player.o: Player.cpp.o
-.PHONY : Player.o
-
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
-.PHONY : Player.i
-
-# target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/Player.cpp.i
-.PHONY : Player.cpp.i
-
-Player.s: Player.cpp.s
-.PHONY : Player.s
-
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -258,18 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tutorial"
-	@echo "... Entity.o"
-	@echo "... Entity.i"
-	@echo "... Entity.s"
-	@echo "... EntityHandler.o"
-	@echo "... EntityHandler.i"
-	@echo "... EntityHandler.s"
-	@echo "... MyMath.o"
-	@echo "... MyMath.i"
-	@echo "... MyMath.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
