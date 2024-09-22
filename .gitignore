@@ -6,3 +6,6 @@ pytorch-handwriting/data/
 cmake_install.cmake
 CMakeCache.txt
 
+# pixi environments
+.pixi
+*.egg-info
