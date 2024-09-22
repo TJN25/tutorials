@@ -5,3 +5,9 @@ data/
 snakemake-data/
 snakemake-tutorial-data.tar.gz
 *.egg-info
+*.tmp
+.snakemake.log
+# Python bytecode
+__pycache__/
+*.py[cod]
+
